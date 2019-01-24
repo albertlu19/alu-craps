@@ -23,6 +23,9 @@ public class Dice
      */
     public int[] roll()
     {
-        
+        int[] diceHolder = new int[2];
+        diceHolder[0] = d1.roll();
+        diceHolder[1] = d2.roll();
+        return diceHolder;
     }
 }
