@@ -15,7 +15,9 @@ public class Die
         // initialise instance variables
 
     }
-    
+    /**
+     * Rolls a dice. Gets a value 1-6
+     */
     public int roll(){
         int random = (int)(Math.random()*6+1);
         return random;

@@ -3,7 +3,7 @@
  * Creates a Dice class which holds, rolls, and creates an array of the values of 2 rolled die.
  * 
  * Albert Lu
- * 
+ * 1-24-2019
  */
 public class Dice
 {
