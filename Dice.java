@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Dice here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Creates a Dice class which holds, rolls, and creates an array of the values of 2 rolled die.
+ * 
+ * Albert Lu
+ * 
  */
 public class Dice
 {
@@ -19,7 +19,7 @@ public class Dice
     }
 
     /**
-     * rolls out an int array which contains the dice
+     * rolls out an int array which contains the dice roll values
      */
     public int[] roll()
     {
